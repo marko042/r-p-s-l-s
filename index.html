@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
 
     <title>R-P-S-L-S</title>
 </head>
+
 <body>
     <h1 class="heading">rock paper scissors lizard spock</h1>
 
@@ -25,7 +27,15 @@
         <p class="scores">User: <span id="score">0</span></p>
         <p class="scores">Computer: <span id="score">0</span></p>
     </div>
- 
+
+    <div class="results">
+        <div class="result-winner"><button class="choice"><img id="rock" src="/assets/images/rock.png"
+                    alt="rock"></button></div>
+        <div class="result-other"> <button class="choice"><img id="paper" src="/assets/images/paper.png"
+                    alt="paper"></button></div>
+    </div>
+
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
