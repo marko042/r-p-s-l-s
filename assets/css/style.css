@@ -1,20 +1,20 @@
 body {
     background-color: #e2e9ea;
-    font-family: 'Roboto Mono ', sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     color: black;
 }
+
 /*Heading layout */
 
 .heading {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
-.heading  {
+.heading {
     font-size: 300%;
     color: #a4bcc0;
-  /* text-shadow: 2px 2px 4px #3f747b; */
-  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 
@@ -24,7 +24,7 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    justify-items:center ;
+    justify-items: center;
     align-items: center;
     gap: 60px;
     margin-top: 100px;
@@ -51,7 +51,7 @@ body {
 .choice:hover {
     transform: scale(1.2);
     opacity: 1.0;
-    
+
 }
 
 /* Score area layout */
@@ -60,13 +60,12 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    justify-items:center ;
+    justify-items: center;
     align-items: center;
     font-size: 2.5rem;
     margin: 1.5rem;
     color: #a4bcc0;
-  /* text-shadow: 2px 2px 4px #3f747b; */
-  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 .scores span {
@@ -75,11 +74,11 @@ body {
     color: #3f747b;
 }
 
- .results {
+.results {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    justify-items:center ;
+    justify-items: center;
     align-items: center;
 
 }
