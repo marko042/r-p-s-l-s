@@ -1,7 +1,20 @@
 body {
-    background-color: aquamarine;
+    background-color: #e2e9ea;
     font-family: 'Roboto Mono ', sans-serif;
     color: black;
+}
+/*Heading layout */
+
+.heading {
+    display:flex;
+    justify-content: center;
+}
+
+.heading  {
+    font-size: 300%;
+    color: #a4bcc0;
+  /* text-shadow: 2px 2px 4px #3f747b; */
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 
@@ -51,6 +64,9 @@ body {
     align-items: center;
     font-size: 2.5rem;
     margin: 1.5rem;
+    color: #a4bcc0;
+  /* text-shadow: 2px 2px 4px #3f747b; */
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 
 .scores span {
@@ -78,6 +94,9 @@ body {
     opacity: .5;
 }
 
-.result-winner {
+.result-winner img {
     opacity: 1;
+    width: 130px;
+    height: 130px;
+    resize: both;
 }
