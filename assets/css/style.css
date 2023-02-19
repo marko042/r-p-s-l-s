@@ -99,3 +99,32 @@ body {
     height: 130px;
     resize: both;
 }
+
+/* Rules and history layout */
+
+.rules-history-container h2 p {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.rules-history-container {
+    margin: 30px;
+}
+
+/*.rules-list {
+    background: none;
+    border: none;
+    outline: none;
+    list-style-image: none outside url(/assets/images/svgviewer-otput.svg);
+    
+}*/
+
+.rules-list li {
+    list-style-type: none;
+    margin-bottom: 18px;
+    background-image: url(/assets/images/svgviewer-output.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: 0;
+}
