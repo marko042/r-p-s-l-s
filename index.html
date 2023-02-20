@@ -16,23 +16,26 @@
     <h1 class="heading">rock paper scissors lizard spock</h1>
 
     <div class="choices">
-        <button class="choice"><img id="rock" src="/assets/images/rock.png" alt="rock"></button>
-        <button class="choice"><img id="paper" src="/assets/images/paper.png" alt="paper"></button>
-        <button class="choice"><img id="scissors" src="/assets/images/scissors.png" alt="scissors"></button>
-        <button class="choice"><img id="lizard" src="/assets/images/lizard.png" alt="lizard"></button>
-        <button class="choice"><img id="spock" src="/assets/images/spock.png" alt="spock"></button>
+        <button class="choice"><img id="rock" data-choice="rock" src="/assets/images/rock.png" alt="rock"></button>
+        <button class="choice"><img id="paper" data-choice="paper" src="/assets/images/paper.png" alt="paper"></button>
+        <button class="choice"><img id="scissors" data-choice="scissors" src="/assets/images/scissors.png"
+                alt="scissors"></button>
+        <button class="choice"><img id="lizard" data-choice="lizard" src="/assets/images/lizard.png"
+                alt="lizard"></button>
+        <button class="choice"><img id="spock" data-choice="spock" src="/assets/images/spock.png" alt="spock"></button>
     </div>
 
     <div class="score-area">
-        <p class="scores">User: <span id="score">0</span></p>
-        <p class="scores">Computer: <span id="score">0</span></p>
+        <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Your Choice: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
     </div>
 
-    <div class="results">
-      <!-- <div class="result-winner"><button class="choice"><img id="rock" src="/assets/images/rock.png"
+    <!--<div class="results">
+        <div class="result-winner"><button class="choice"><img id="rock" src="/assets/images/rock.png"
                     alt="rock"></button></div>
         <div class="result-other"> <button class="choice"><img id="paper" src="/assets/images/paper.png"
-                    alt="paper"></button></div>--> 
+                    alt="paper"></button></div>-->
     </div>
 
     <div class="rules-history-container">
@@ -55,6 +58,7 @@
             <ul class="rules-list">
                 <li>Scissors cuts Paper</li>
                 <li>Paper covers Rock</li>
+                <li>Rock crushes Scissors</li>
                 <li>Rock crushes Lizard</li>
                 <li>Lizard poisons Spock</li>
                 <li>Spock smashes Scissors</li>

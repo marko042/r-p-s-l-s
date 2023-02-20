@@ -74,31 +74,15 @@ body {
     color: #3f747b;
 }
 
-.results {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    justify-items: center;
-    align-items: center;
-
+.score-area h2 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    color: #3f747b;
 }
 
-.results img {
-    width: 100px;
-    height: 100px;
-    resize: both;
-}
 
-.result-other {
-    opacity: .5;
-}
 
-.result-winner img {
-    opacity: 1;
-    width: 130px;
-    height: 130px;
-    resize: both;
-}
+
 
 /* Rules and history layout */
 
