@@ -109,3 +109,18 @@ body {
     text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 
 }
+
+/* media queries */
+
+@media screen and (max-width: 1460px) {
+    .score-area h2 span {
+        font-size: 65%;
+    }
+
+    @media screen and (max-width: 960px) {
+        .heading {
+            font-size: 150%;
+
+        }
+    }
+}
