@@ -98,7 +98,7 @@ body {
 .rules-list li {
     list-style-type: none;
     margin-bottom: 18px;
-    background-image: url(/assets/images/svgviewer-output.svg);
+    background-image: url(../images/atom-bullet-point.svg);
     background-repeat: no-repeat;
     padding-left: 30px;
     background-position: 0;

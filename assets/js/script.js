@@ -46,7 +46,7 @@ function generateComputerChoice() {
 }
 
 
-// Gets the result based on the choices made by user and computer
+// Gets the result based on the choices made by user and computer and displays it
 function getResult() {
     if (computerChoice === userChoice) {
         result = "it's a tie, pick again!";
