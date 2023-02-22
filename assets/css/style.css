@@ -22,12 +22,10 @@ body {
 
 .choices {
     display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    justify-content:center;
     justify-items: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 100px;
+    gap: 33px;
+    margin-top: 50px;
 
 
 }
@@ -44,7 +42,7 @@ body {
 
 .choice img {
 
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
    
@@ -125,4 +123,4 @@ body {
 
         }
    
-    
+    }
