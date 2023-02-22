@@ -3,13 +3,13 @@
 const possibleChoices = document.querySelectorAll('button');
 
 
-//grabs the user choice and stores it
+
 
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => { // add event listener to button clicks
     let userChoice = e.target.id;
     generateComputerChoice(userChoice, getResult);
-    /*getResult();*/
+    
 }));
 
 //Declares a function for computer choice
@@ -17,14 +17,15 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 
 function generateComputerChoice(userChoice, showResult) {
     const randomNumber = Math.floor(Math.random() * 5); //alternatively use possibleChoices.lenght
-    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'] // create array of options with index matching choice numbers
+    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock']; // create array of options with index matching choice numbers
     let computerChoice = choices[randomNumber]; //getting computer choice value from the array based on random number
-    showResult(computerChoice, userChoice)
+    showResult(computerChoice, userChoice);
+}
 
 
     // Gets the result based on the choices made by user and computer and displays it
     function getResult(computerChoice, userChoice) {
-        let result = 'calculating...'
+        let result = 'calculating...';
         if (computerChoice === userChoice) {
             result = "it's a tie, pick again!";
         } else if (computerChoice === 'scissors' && userChoice === 'paper') { //comparing computer choice and user choice to create result message
@@ -71,7 +72,7 @@ function generateComputerChoice(userChoice, showResult) {
 
         // Display everything
         document.getElementById('user-choice').innerHTML = userChoice;
-        console.log(result)
+        console.log(result);
         document.getElementById('result').innerHTML = result;
         document.getElementById('computer-choice').innerHTML = computerChoice;
 
